@@ -13,7 +13,7 @@
 ## sli.dev
 - After content for slide-deck is generated, [sli.dev](https://sli.dev) is used to render the content as slides.
 - This is a Javascript framework which takes markdown input and renders it as slides using layouts.
-- Before we can use `sli.dev`, we need to do some preprocessing, which is handled by XXX.
+- Before we can use `sli.dev`, we need to do some preprocessing, which is handled by `markdown_parser.py`.
 - At the end of this pre-processing, we end up with `slides.md` file.
 - This file can then be used in `sli.dev`.
 - We clone the repo at [https://github.com/slidevjs/slidev](https://github.com/slidevjs/slidev?tab=readme-ov-file) and follow setup instructions to get a locally running version.
