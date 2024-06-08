@@ -17,3 +17,5 @@
 - At the end of this pre-processing, we end up with `slides.md` file.
 - This file can then be used in `sli.dev`.
 - We clone the repo at [https://github.com/slidevjs/slidev](https://github.com/slidevjs/slidev?tab=readme-ov-file) and follow setup instructions to get a locally running version.
+- After, this, move the `slides.md` file to the root directory and the slide deck should render.
+
