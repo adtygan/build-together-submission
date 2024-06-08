@@ -5,6 +5,8 @@ text = f.read()
 for i in range(1, 100):  # Assuming there won't be more than 100 pages
     text = text.replace(f'[Page {i}]', '')
 slides = "##" + text.split("##")[-1]
+
+text = text.replace("Introduction", "")
 slides = text.replace("### ", "slide-break### ").replace("###", "\n<br>\n\n###").split("slide-break")
 # temp_layout = "\n---\ntransition: fade-out\n---\n\n"
 
